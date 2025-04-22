@@ -1,5 +1,36 @@
+// ==UserScript==
+// @name         Wormate.io ZOOM HACK - Wormateio Hacks - Best Wormate Cheat 2019 to 2020
+// @description  Wormateio Mods Features: Zoom Hack, Speed Hack, Skin Hack, Auto Skin, Auto Spawn, FPS, Adblock
+// @namespace    iomods.org
+// @author       iomods.org
+// @version      2.1
+// @require      http://code.jquery.com/jquery-3.3.1.min.js
+// @require      https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js
+// @require      https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js
+// @require      https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.29/howler.min.js
+// @icon         https://io-mods.com/mods/iomods.png
+// @updateURL    https://io-mods.com/mods/wormateio.user.js
+// @downloadURL  https://io-mods.com/mods/wormateio.user.js
+// @grant        GM_setValue
+// @grant        GM_getValue
+// @match        *://wormate.io/*
+// @match        *iogames.space/*
+// @match        *titotu.io/*
+// @match        *io-games.io/*
+// ==/UserScript==
+
+
+
+
 var GoogleAuth;
 var zE;
+setTimeout(function() {
+//tanitim belgeseli
+var colorize,colorizer,lnk,text,ministyler
+lnk = ["SLITHERE.COM", "KRUNKERIO.ORG", "KRUNKERIO.NET", "KRUNKERIOPLAY.COM", "SHELLSHOCKIO.ORG", "MOOMOOIOPLAY.COM", "SURVIVIO.INFO", "ZOMBSROYALEIO.ORG", "MOPE-IO.NET", "MOPEIOGAME.COM", "DIEPIOPLAY.COM", "DIEPIOPLAY.ORG", "SLITHERIOPLAY.ORG", "SKRIBBL-IO.NET", "SPINZ-IO.NET", "BONK-IO.NET", "TANKSMITHIO.ORG", "DEEEEP-IO.NET", "BUILDROYALEIO.ORG", "WORMAX.ORG", "WORMAX2IO.COM", "WORMATE-IO.NET", "BUILDROYALEIO.ORG", "PAPERIOGAME.COM", "DEVASTIOPLAY.COM", "GARTICIO.ORG", "SPLIXIO.NET", "IOGAMESLIST.ORG", "IO-OYUNLAR.COM", "IOMODS.ORG"];
+text = "<b>";
+lnk.forEach(lnkfunc);
+text += "</b>";
 function zoominout() {
     var findinput = $('.zoom').val();
     if(findinput >= 70 && findinput <= 140)
