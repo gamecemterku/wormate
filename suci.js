@@ -1,5 +1,12 @@
 var GoogleAuth;
 var zE;
+function zoominout() {
+    var findinput = $('.zoom').val();
+    if(findinput >= 70 && findinput <= 140)
+    {
+    $('body').css('zoom',''+findinput+'%');
+    } else { $('body').css('zoom','100%'); }
+}
 function _typeof(_0x4d0ax4) {
   return (_typeof = typeof Symbol == "function" && typeof Symbol.iterator == "symbol" ? function (_0x4d0ax4) {
     return typeof _0x4d0ax4;
@@ -11159,12 +11166,5 @@ function _typeof(_0x4d0ax4) {
         } catch (_0x4d0ax8) {}
       });
     };
-	  function zoominout() {
-    var findinput = $('.zoom').val();
-    if(findinput >= 70 && findinput <= 140)
-    {
-    $('body').css('zoom',''+findinput+'%');
-    } else { $('body').css('zoom','100%'); }
-}
   });
 })();
