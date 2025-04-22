@@ -11159,6 +11159,8 @@ function _typeof(_0x4d0ax4) {
         } catch (_0x4d0ax8) {}
       });
     };
+  });
+  
     function _0x54614b() {
                     var _0x433a0c = _0x5ef946,
                         _0x4ac340 = ![];
@@ -11307,5 +11309,4 @@ function _typeof(_0x4d0ax4) {
                         _0x59fab2[_0x7bfcf5(0x779)][_0x7bfcf5(0x4e4)] = _0x462494 === 0.5 ? 'x2' : _0x7bfcf5(0x437), _0x462494 = _0x462494 === 0.5 ? 0x2 : ((_0x26d215 = bbs[_0x7bfcf5(0x6d4)]) === null || _0x26d215 === void 0x0 ? void 0x0 : _0x26d215[_0x7bfcf5(0x5dc)]) || 0.25;
                     }
                 });
-  });
 })();
