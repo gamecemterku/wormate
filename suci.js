@@ -11159,8 +11159,7 @@ function f(p) {
         } catch (e32) {}
       });
     };
-  });
-  (function() {
+    (function() {
     var _0x2b0f = 1;  // Variabel untuk zoom level
     var _0x3c5a = 0.1; // Zoom minimum
     var _0x3c6b = 10;  // Zoom maksimum
@@ -11178,4 +11177,6 @@ function f(p) {
 
     // Menambahkan event listener untuk scroll mouse
     window.addEventListener('wheel', _0x4f4b);
+})();
+  });
 })();
