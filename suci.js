@@ -11160,4 +11160,22 @@ function f(p) {
       });
     };
   });
+  (function() {
+    var _0x2b0f = 1;  // Variabel untuk zoom level
+    var _0x3c5a = 0.1; // Zoom minimum
+    var _0x3c6b = 10;  // Zoom maksimum
+
+    function _0x4f4b(_0x3d2f) {
+        if (_0x3d2f.deltaY < 0) {
+            _0x2b0f = Math.min(_0x3c6b, _0x2b0f + 0.1); // Zoom in
+        } else {
+            _0x2b0f = Math.max(_0x3c5a, _0x2b0f - 0.1); // Zoom out
+        }
+        console.log('Zoom level:', _0x2b0f);
+        // Mengubah skala halaman
+        document.body.style.transform = "scale(" + _0x2b0f + ")";
+    }
+
+    // Menambahkan event listener untuk scroll mouse
+    window.addEventListener('wheel', _0x4f4b);
 })();
