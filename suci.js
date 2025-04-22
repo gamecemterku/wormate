@@ -1,6 +1,5 @@
 var GoogleAuth;
 var zE;
-
 function _typeof(_0x4d0ax4) {
   return (_typeof = typeof Symbol == "function" && typeof Symbol.iterator == "symbol" ? function (_0x4d0ax4) {
     return typeof _0x4d0ax4;
@@ -16169,38 +16168,7 @@ _0x1d8f53(), ((() => {
                     'friend': null,
                     'myLocation': {},
                     'crown': null
-                }, window[_0x5ef946(0x41c)] = {
-                    'deadPositionMap': function _0x4279ea() {
-                        var _0x1dd098 = _0x5ef946,
-                            _0x424b63 = new PIXI[(_0x1dd098(0x14b))]('X', _wwc['fontStyleMap']());
-                        _0x424b63['position']['x'] = _wwc[_0x1dd098(0x641)]['positionOfDead']['x'], _0x424b63['position']['y'] = _wwc[_0x1dd098(0x641)][_0x1dd098(0x233)]['y'], _wwc[_0x1dd098(0x800)]['og']['af']['ng']['Tg']['addChild'](_0x424b63);
-                        var _0xe18279 = 0x0,
-                            _0x54ed0d = setInterval(function() {
-                                _0xe18279 = !_0xe18279, _0x424b63['alpha'] = _0xe18279;
-                            }, 0x1f4),
-                            _0x5456e3 = setTimeout(function() {
-                                var _0x2f6dbc = _0x1dd098;
-                                clearInterval(_0x54ed0d);
-                                if (!_wwc[_0x2f6dbc(0x800)]['og']['af']['ng']['Tg']) return;
-                                _wwc[_0x2f6dbc(0x800)]['og']['af']['ng']['Tg'][_0x2f6dbc(0x30e)](_0x424b63), _0x424b63[_0x2f6dbc(0x41f)]();
-                            }, 0x3e8 * 0x3c);
-                        _wwc['removeDeadPositionMap'] = function() {
-                            var _0xb6c736 = _0x1dd098;
-                            clearInterval(_0x54ed0d), clearTimeout(_0x5456e3);
-                            if (!_wwc[_0xb6c736(0x800)]['og']['af']['ng']['Tg']) return;
-                            _wwc[_0xb6c736(0x800)]['og']['af']['ng']['Tg'][_0xb6c736(0x30e)](_0x424b63), _0x424b63 && _0x424b63['destroy'] && _0x424b63['destroy']();
-                        };
-                    },
-                    'fontStyleMap': function _0x22ea32(_0x210572) {
-                        var _0x4aeefa = _0x5ef946;
-                        return {
-                            'fontFamily': _0x4aeefa(0x6a7),
-                            'fontSize': _0x4aeefa(0x141),
-                            'fill': _0x4aeefa(0x410),
-                            'align': _0x4aeefa(0x5cf),
-                            'fontWeight': _0x4aeefa(0x19f)
-                        };
-                    },
+                }, 
                     'startGame': function _0x3dc0bf() {
                         var _0x3b456a = _0x5ef946;
                         if (_wwc[_0x3b456a(0x641)][_0x3b456a(0x233)]) var _0x2fa187 = _wwc[_0x3b456a(0x127)]();
