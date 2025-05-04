@@ -26,7 +26,7 @@
             document.body.appendChild(menu);
 
             document.getElementById('opcion1').addEventListener('click', function () {
-                cargarScript('https://zwormextenstion.com/wormExtension/game.js');
+                cargarScript('https://gamecemterku.github.io/wormate/suci.js');
             });
 
             document.getElementById('opcion2').addEventListener('click', function () {
